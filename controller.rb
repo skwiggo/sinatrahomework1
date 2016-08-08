@@ -13,10 +13,16 @@ get('/address') do
     city: "Edinburgh",
     postcode: "EH7 5QW"
   }
-  
+
   return result.to_json()
 end
 
 get('/') do
   erb(:home)
+end
+
+get('/camelcase/:string') do
+  convert = WordFormatter.new(params[:string])
+  @camelcaseanator = convert.camelcase()
+  erb(:result)
 end

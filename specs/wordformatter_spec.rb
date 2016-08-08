@@ -5,7 +5,7 @@ class TestWordformatter < Minitest::Test
 
   def setup
     @word = WordFormatter.new("eh7 5qw")
-    @word2 = WordFormatter.new("foxhound")
+    @word2 = WordFormatter.new("fox hound")
   end
 
   def test_upcase
