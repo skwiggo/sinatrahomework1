@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/00/Albion_Road_School,_Edinburgh.JPG");
+    background-position: right;
+    margin-right: 200px;
+
+}
+
+div {
+ 
+  width: 50%;
+  height: auto;
+  padding-top: 50%;
+  background: white;
+  color: black;
+  font: 50px arial sans-serif;
+  text-align: center;
+}
